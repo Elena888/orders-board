@@ -9,7 +9,7 @@ export const orderCardBoxSx = (expanded: boolean) => ({
   position: "relative",
   transform: expanded ? "translateY(0)" : "translateY(-20px)",
   opacity: expanded ? 1 : 0,
-  transition: "all 0.3s ease",
+  transition: "transform 0.45s ease",
 });
 
 export const orderCardHeaderSx = () => ({

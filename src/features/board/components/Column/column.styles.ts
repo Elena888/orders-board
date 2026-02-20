@@ -7,7 +7,7 @@ export const columnBoxSx = (
   m: 1,
   p: 1,
   width: expanded ? 400 : 50,
-
+  minWidth: expanded ? 400 : 50,
   borderRadius: 2,
   bgcolor: `${color}.light`,
   borderColor: `${color}.dark`,
