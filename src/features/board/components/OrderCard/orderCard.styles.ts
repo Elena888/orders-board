@@ -12,13 +12,13 @@ export const orderCardBoxSx = (expanded: boolean) => ({
   transition: "transform 0.45s ease",
 });
 
-export const orderCardHeaderSx = () => ({
+export const orderCardHeaderSx = (isDraggable: boolean) => ({
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
   p: 1,
   borderBottom: "1px solid #d1d1d1",
-  cursor: "grab",
+  cursor: isDraggable ? "grab" : "inherit",
 });
 export const orderNotesBoxSx = (color: ButtonProps["color"]) => ({
   display: "flex",
